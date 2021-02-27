@@ -8,7 +8,7 @@ const url = "https://ci.fredboat.com/repository/download/Lavalink_Build/.lastSuc
 const start = () => {
     const download = stream(url).pipe(createWriteStream('Lavalink.jar'));
     download.on("finish", () => {
-        execSync("java -jar Lavalink.jar", { stdio: "inherit" });
+        execSync("node_modules/jdk-13/bin/java -jar Lavalink.jar", { stdio: "inherit" });
     });
 };
 
