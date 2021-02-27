@@ -2,7 +2,7 @@
 Lavalink on glitch
 <br>
 ## Connecting
-- [x] Lavalink's port will always 443
+- [x] Lavalink's port will always 3000
 - [x] Default password `youshallnotpass`
 - [x] using custom lavalink client
 
@@ -20,7 +20,7 @@ Lavalink on glitch
 ```js
 const { Manager } = require("lavacord");
 const nodes = [
-    { id: "1", host: "lavalink-glitch.glitch.me", port: 443, password: "youshallnotpass" }
+    { id: "1", host: "lavalink-glitch.glitch.me", port: 3000, password: "youshallnotpass" }
 ];
 const manager = new Manager(nodes, {
     user: client.user.id, // Client id
@@ -38,7 +38,7 @@ const manager = new Manager(nodes, {
 const { Client } = require('discord.js');
 const { Shoukaku } = require('shoukaku');
  
-const LavalinkServer = [{ name: 'my-lavalink-server', host: 'lavalink-glitch.glitch.me', port: 443, auth: 'youshallnotpass', secure: true }];
+const LavalinkServer = [{ name: 'my-lavalink-server', host: 'lavalink-glitch.glitch.me', port: 3000, auth: 'youshallnotpass', secure: true }];
 const ShoukakuOptions = { moveOnDisconnect: false, resumable: false, resumableTimeout: 30, reconnectTries: 2, restTimeout: 10000 };
  
 class ExampleBot extends Client {
