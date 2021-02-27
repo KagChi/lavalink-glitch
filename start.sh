@@ -3,4 +3,3 @@ wget -O jdk13.tar.gz https://download.java.net/openjdk/jdk13/ri/openjdk-13+33_li
 tar -xzvf jdk13.tar.gz
 cd ..
 node index
-node_modules/jdk-13/bin/java -jar Lavalink.jar
