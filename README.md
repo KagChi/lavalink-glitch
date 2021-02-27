@@ -5,6 +5,7 @@ Lavalink on glitch
 1. Hideki Shibata#1870
 2. Orchit#8776
 3. Zen Shibata#6784
+4. Allvaa
 
 ## Connecting
 - [x] Lavalink's port will always 3000
