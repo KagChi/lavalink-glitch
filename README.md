@@ -1,6 +1,11 @@
 # lavalink-glitch
 Lavalink on glitch
 <br>
+# Special Thanks To
+1. Hideki Shibata#1870
+2. Orchit#8776
+3. Zen Shibata#6784
+
 ## Connecting
 - [x] Lavalink's port will always 3000
 - [x] Default password `youshallnotpass`
