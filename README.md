@@ -13,7 +13,8 @@ Lavalink on glitch
 - [x] using custom lavalink client
 
 ## Important notes:
-- [x] To keep this 24/7 you need to make an account on UptimeRobot service, and make HTTP request to your app every 5 minutes. For example, if your app is named `lavalink-glitch` then make HTTP request to `https://lavalink-glitch.glitch.me`
+- [x] ~~To keep this 24/7 you need to make an account on UptimeRobot service, and make HTTP request to your app every 5 minutes. For example, if your app is named `lavalink-glitch` then make HTTP request to `https://lavalink-glitch.glitch.me`~~
+- [x] Glitch boost to keep 24/7 (glitch banned uptimerobot) 
 - [x] Do not forget to set your password (in `application.yml` file)
 
 ## Advantages:
