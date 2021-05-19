@@ -26,7 +26,7 @@ Lavalink on glitch
 
 ## Example:
 
-- [x] Latest Shoukaku (V1.6.1)
+- [x] Latest Shoukaku (v1.6.x)
 ```js
 const { Client } = require('discord.js');
 const { Shoukaku } = require('shoukaku');
