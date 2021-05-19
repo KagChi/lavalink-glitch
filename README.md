@@ -15,7 +15,8 @@ Lavalink on glitch
 ## Important notes:
 - [x] ~~To keep this 24/7 you need to make an account on UptimeRobot service, and make HTTP request to your app every 5 minutes. For example, if your app is named `lavalink-glitch` then make HTTP request to `https://lavalink-glitch.glitch.me`~~
 - [x] Glitch boost to keep 24/7 (glitch banned uptimerobot) 
-- [x] Uptimerobot alternative [Link](https://klee-uptime.kagchi.me)
+- [x] ~~Uptimerobot alternative [Link](https://klee-uptime.kagchi.me)~~
+- [x] Google appscript
 - [x] Do not forget to set your password (in `application.yml` file)
 
 ## Advantages:
@@ -24,22 +25,6 @@ Lavalink on glitch
 - [x] Using Dev build
 
 ## Example:
-- [x] Lavacord
-```js
-const { Manager } = require("lavacord");
-const nodes = [
-    { id: "1", host: "lavalink-glitch.glitch.me", port: 443, password: "youshallnotpass" }
-];
-const manager = new Manager(nodes, {
-    user: client.user.id, // Client id
-    shards: shardCount, // Total number of shards your bot is operating on
-    send: (packet) => {
-        // this needs to send the provided packet to discord using the method from your library. use the @lavacord package for the discord library you use if you don't understand this
-    }
-});
-
-//...
-```
 
 - [x] Latest Shoukaku (V1.6.1)
 ```js
